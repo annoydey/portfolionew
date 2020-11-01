@@ -212,6 +212,7 @@ header .social-icon li a
 	{
 		position: absolute;
 		left: 0;
+		right: 0;
 		padding-left: 15%;
 		background-size: cover;
 		padding-top: 80px;
@@ -600,6 +601,7 @@ header .social-icon li a
 }
 .containercustom .box .content h5{
 	text-align: center;
+	padding-bottom: 3px;
 }
 .containercustom .box .content a{
 	color:white;
@@ -780,6 +782,7 @@ header .social-icon li a
 			min-height: 300px;
 			padding-top: 80px;
 			padding-bottom: 60px;
+			padding-right: 15%;
 		}
 	#home h1
 		{
@@ -817,9 +820,9 @@ header .social-icon li a
 		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 	}
 	#aboutme{
-		margin-top: 800px;
+		margin-top: 700px;
 		background-color: #202020;
-		height: 2400px;
+		height: 2450px;
 	}
 	#para1{
 		padding-top: 10%;
@@ -841,7 +844,36 @@ header .social-icon li a
 		position: relative;
 	}
 	.headerimg{
-		width: 85%;
+		width: 90%;
+	}
+	.containercustom .box .content{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		z-index: 1;
+		display: flex;
+		padding: 10px;
+		align-items: flex-end;
+	}
+	.containercustom{
+		position: relative;
+		left: 0;
+		padding-right: 12%;
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.containercustom .box{
+		border-radius: 5%;
+		position: relative;
+		width: 270px;
+		height: 255px;
+		overflow: hidden;
+		transition: 0.5s;
+		margin-right: 1%;
+		
 	}
 }
 /* end 768 media quires */
