@@ -860,7 +860,7 @@ header .social-icon li a
 	.containercustom{
 		position: relative;
 		left: 0;
-		padding-right: 12%;
+		padding-right: 10%;
 		width:100%;
 		display: flex;
 		flex-wrap: wrap;
