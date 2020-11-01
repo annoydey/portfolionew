@@ -23,19 +23,9 @@ h2
 		font-size: 40px;
 		padding-bottom: 80px;
 	}
-#moreaboutme{
-	font-size: 40px;
-}
-#moreaboutme li{
-	padding-top: 20px;
-	font-size: 15px;
-}
 #aboutme{
 	background-color: #202020;
 	height: 1300px;
-}
-#internship{
-	padding-left: 40px;
 }	
 h2 span
 	{
@@ -212,12 +202,17 @@ header .social-icon li a
 /* end navigation */
 
 /* start home */
-#headerimg{
-	width: 100%;
+.headerimg{
+	width: 55%;
 }
-
+#particles-js{
+	
+}
 #home
 	{
+		position: absolute;
+		left: 0;
+		padding-left: 15%;
 		background-size: cover;
 		padding-top: 80px;
 		padding-bottom: 280px;
@@ -750,6 +745,7 @@ header .social-icon li a
 		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 	}
 	#aboutme{
+		margin-top: 100%;
 		background-color: #202020;
 		height: 1700px;
 	}
@@ -771,9 +767,7 @@ header .social-icon li a
 		width: 270px;
 		height: 255px;
 		overflow: hidden;
-		transition: 0.5s;
-
-		
+		transition: 0.5s;	
 	}
 
 }
@@ -823,6 +817,7 @@ header .social-icon li a
 		box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 	}
 	#aboutme{
+		margin-top: 800px;
 		background-color: #202020;
 		height: 2400px;
 	}
@@ -841,6 +836,12 @@ header .social-icon li a
 		transition: 0.5s;
 
 		
+	}
+	#particles-js{
+		position: relative;
+	}
+	.headerimg{
+		width: 85%;
 	}
 }
 /* end 768 media quires */
